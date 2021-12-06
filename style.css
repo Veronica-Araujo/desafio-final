@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{padding:0;
+    margin:0;
+    box-sizing: border-box; 
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.box-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#fff;
+    height: 10vh;
+    width: 100%;
+}
+.logo-portflow img{
+    width: 10vw;
+}
+.logo-portflow{
+    width: 40%;   
+}
+nav{
+    width: 40%;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+}
+li:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+li{
+    color: #855c5c;
+}
+.image-header{
+    background-image: url(./assets/Laranja.png);
+    background-repeat: no-repeat;
+    height: 75vh;
+    background-size: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.image-header h1{
+    font-size: 4rem;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+.image-header p{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 100;
+    width: 90%;
+}
+main{
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-images{
+    width: 90vw;
+    flex-wrap: wrap;
+}
+.box-images img{
+    width: 24.5%;
+}
+footer{
+    height: 10vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+}
+.images-footer{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+footer section{
+    width: 90%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.images-footer img{
+    max-height: 50%;
+}
+.text-footer{
+    margin-left: 2rem;
+    display: flex;
+}
+.text-footer h2{
+    font-size: 1.2rem;
+}
+.text-footer p{
+    font-size: 0.8rem;
+    width: 60%;
+    margin-left: 2rem;
+}
