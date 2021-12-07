@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url ('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 600 & display = swap');
 *{padding:0;
     margin:0;
     box-sizing: border-box; 
@@ -32,12 +33,12 @@ li:hover{
     font-weight: bold;
 }
 li{
-    color: #855c5c;
+    color: #d3d3d3;
 }
 .image-header{
     background-image: url(./assets/Laranja.png);
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 78vh;
     background-size: 100%;
     color: #fff;
     display: flex;
@@ -46,15 +47,16 @@ li{
     justify-content: center;   
 }
 .image-header h1{
-    font-size: 4rem;
+    font-size: 3.8rem;
     width: 90%;
     margin-bottom: 2rem;
 }
 .image-header p{
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 100;
     width: 90%;
+    color:gainsboro;
 }
 main{
     height: 160vh;
@@ -67,37 +69,39 @@ main{
     flex-wrap: wrap;
 }
 .box-images img{
-    width: 24.5%;
+    width: 22vw;
 }
 footer{
     height: 10vh;
-    background-color: #d3d3d3;
+    background-color:ghostwhite;
     display: flex;
     justify-content: center;
 }
+.images-footer img{
+    height: 1.5rem;
+}
 .images-footer{
-    width: 30%;
+    width: 22vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
 }
 footer section{
-    width: 90%;
+    width: 92%;
     display: flex;
     height: 100%;
     align-items: center;
 }
-.images-footer img{
-    max-height: 50%;
-}
+
 .text-footer{
-    margin-left: 2rem;
+    margin-left: 6rem;
     display: flex;
 }
 .text-footer h2{
-    font-size: 1.2rem;
+    font-size: 0.95rem;
 }
 .text-footer p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     width: 60%;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
